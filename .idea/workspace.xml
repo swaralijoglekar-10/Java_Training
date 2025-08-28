@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30d76c53-3809-4853-b430-062e730703ff" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;aksprivsc-d-001-v001&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="aksprivsc-d-001-v001" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2reQqPGOV5Hi1jz8IR4oVUSQfMI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayList_Learning.executor": "Run",
+    "Application.Audi.executor": "Run",
+    "Application.Bank.executor": "Run",
+    "Application.BankAccount.executor": "Run",
+    "Application.Casting.executor": "Run",
+    "Application.CompareToExample.executor": "Run",
+    "Application.ConditionalStatements.executor": "Run",
+    "Application.Constructors.executor": "Run",
+    "Application.ControlAndFlowStatements.executor": "Run",
+    "Application.CreateFolderExample.executor": "Run",
+    "Application.DSAStringQuestion.executor": "Run",
+    "Application.DataTypes.executor": "Run",
+    "Application.DateExample.executor": "Run",
+    "Application.DateTime.executor": "Run",
+    "Application.EmployeeList.executor": "Run",
+    "Application.EnumTest.executor": "Run",
+    "Application.ExceptionInformationPrint.executor": "Run",
+    "Application.ExceptionTest.executor": "Run",
+    "Application.ExceptionTest2.executor": "Run",
+    "Application.ExceptionTest3.executor": "Run",
+    "Application.ExceptionTest6.executor": "Run",
+    "Application.GarbageCollector.executor": "Run",
+    "Application.India.executor": "Run",
+    "Application.LambdaDemo.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
+    "Application.LinkedListExamples.executor": "Run",
+    "Application.LocalDateTimeDemo.executor": "Run",
+    "Application.Loops.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ObjectCount.executor": "Run",
+    "Application.PaymentSystem.executor": "Run",
+    "Application.Questions_Typecasting.executor": "Run",
+    "Application.SecurityManager.executor": "Run",
+    "Application.SerializationLearning.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.SortingAlgorithms.executor": "Run",
+    "Application.StackExample.executor": "Run",
+    "Application.StaticTest.executor": "Run",
+    "Application.StringBufferLearning.executor": "Run",
+    "Application.StringBuilderLearning.executor": "Run",
+    "Application.StringJoinerTest.executor": "Run",
+    "Application.StringLearning.executor": "Run",
+    "Application.SubString_Split_StringTokenizer.executor": "Run",
+    "Application.Sum.executor": "Run",
+    "Application.TemperatureConverter.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.ThreadDemo.executor": "Run",
+    "Application.TreeSetExample.executor": "Run",
+    "Application.TwoDimensionalArray.executor": "Run",
+    "Application.Typecasting.executor": "Run",
+    "Application.UniqueElement.executor": "Run",
+    "Application.UserInput.executor": "Run",
+    "Application.VectorExample.executor": "Run",
+    "Application.Widening_Narrowing.executor": "Run",
+    "Application.WrapperClasses.executor": "Run",
+    "Application.doWhileLoop.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/joglesar/Swarali/Self-study/Full stack development/Office training advanced java projects/exercise1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ExceptionTest" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lecture11to20.exceptionHandling.ExceptionTest" />
+      <module name="JavaTrainingOffice" />
+      <option name="PROGRAM_PARAMETERS" value="10 0" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="India" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="brandNewJavaLearning.designPatterns.India" />
+      <module name="JavaTrainingOffice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="brandNewJavaLearning.designPatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="brandNewJavaLearning.QuestionsSolved.LinearSearch" />
+      <module name="JavaTrainingOffice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="brandNewJavaLearning.QuestionsSolved.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="brandNewJavaLearning.designPatterns.Main" />
+      <module name="JavaTrainingOffice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="brandNewJavaLearning.designPatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="brandNewJavaLearning.QuestionsSolved.SortingAlgorithms" />
+      <module name="JavaTrainingOffice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="brandNewJavaLearning.QuestionsSolved.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="brandNewJavaLearning.TwoDimensionalArray" />
+      <module name="JavaTrainingOffice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="brandNewJavaLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ExceptionTest" />
+      <item itemvalue="Application.India" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.TwoDimensionalArray" />
+      <item itemvalue="Application.SortingAlgorithms" />
+      <item itemvalue="Application.LinearSearch" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.India" />
+        <item itemvalue="Application.SortingAlgorithms" />
+        <item itemvalue="Application.TwoDimensionalArray" />
+        <item itemvalue="Application.LinearSearch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30d76c53-3809-4853-b430-062e730703ff" name="Changes" comment="" />
+      <created>1736917255673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736917255673</updated>
+      <workItem from="1736917256706" duration="1224000" />
+      <workItem from="1737008459101" duration="614000" />
+      <workItem from="1737095832167" duration="3854000" />
+      <workItem from="1737348439071" duration="7730000" />
+      <workItem from="1737386733509" duration="30000" />
+      <workItem from="1737441131312" duration="801000" />
+      <workItem from="1737523998870" duration="6361000" />
+      <workItem from="1737721301927" duration="1799000" />
+      <workItem from="1737956367055" duration="2872000" />
+      <workItem from="1737968441851" duration="4824000" />
+      <workItem from="1738042368192" duration="1834000" />
+      <workItem from="1738126801377" duration="5005000" />
+      <workItem from="1738230024052" duration="5839000" />
+      <workItem from="1738558646370" duration="7851000" />
+      <workItem from="1738649399180" duration="2801000" />
+      <workItem from="1738845261219" duration="1526000" />
+      <workItem from="1738904467593" duration="4487000" />
+      <workItem from="1739163704016" duration="4623000" />
+      <workItem from="1739252190540" duration="5043000" />
+      <workItem from="1739335906159" duration="5170000" />
+      <workItem from="1739351333253" duration="613000" />
+      <workItem from="1739527893276" duration="2927000" />
+      <workItem from="1739767032936" duration="2521000" />
+      <workItem from="1739774377608" duration="3277000" />
+      <workItem from="1739940327552" duration="4076000" />
+      <workItem from="1739956431328" duration="5296000" />
+      <workItem from="1740030541439" duration="4365000" />
+      <workItem from="1740293246651" duration="4118000" />
+      <workItem from="1740371624581" duration="9071000" />
+      <workItem from="1740403216562" duration="781000" />
+      <workItem from="1740462964104" duration="1179000" />
+      <workItem from="1740547647543" duration="681000" />
+      <workItem from="1740717983889" duration="6113000" />
+      <workItem from="1740736764792" duration="1853000" />
+      <workItem from="1740976636180" duration="8920000" />
+      <workItem from="1741150995229" duration="2856000" />
+      <workItem from="1741251703933" duration="6176000" />
+      <workItem from="1741322788102" duration="2688000" />
+      <workItem from="1741581898627" duration="1218000" />
+      <workItem from="1741671832549" duration="5428000" />
+      <workItem from="1741756109340" duration="3013000" />
+      <workItem from="1742548696767" duration="1792000" />
+      <workItem from="1743569762338" duration="2847000" />
+      <workItem from="1743744089410" duration="4808000" />
+      <workItem from="1744002075987" duration="4192000" />
+      <workItem from="1744021717810" duration="1133000" />
+      <workItem from="1744090323899" duration="598000" />
+      <workItem from="1744174349789" duration="1252000" />
+      <workItem from="1744264745162" duration="1204000" />
+      <workItem from="1744346475610" duration="3587000" />
+      <workItem from="1744367021939" duration="643000" />
+      <workItem from="1744604842523" duration="4902000" />
+      <workItem from="1749623236123" duration="6669000" />
+      <workItem from="1749796501291" duration="9565000" />
+      <workItem from="1750068614657" duration="7166000" />
+      <workItem from="1750138429678" duration="5661000" />
+      <workItem from="1750144613309" duration="11021000" />
+      <workItem from="1750333306962" duration="6027000" />
+      <workItem from="1750397213615" duration="1679000" />
+      <workItem from="1750597424759" duration="6696000" />
+      <workItem from="1750651274093" duration="2332000" />
+      <workItem from="1750923088440" duration="900000" />
+      <workItem from="1750936882393" duration="336000" />
+      <workItem from="1750939648100" duration="585000" />
+      <workItem from="1750941586924" duration="592000" />
+      <workItem from="1750944319485" duration="2454000" />
+      <workItem from="1750947434954" duration="223000" />
+      <workItem from="1751000281529" duration="36000" />
+      <workItem from="1751201563614" duration="14203000" />
+      <workItem from="1751259373343" duration="710000" />
+      <workItem from="1751606176541" duration="973000" />
+      <workItem from="1751613519394" duration="6074000" />
+      <workItem from="1751723836817" duration="7382000" />
+      <workItem from="1751807439131" duration="856000" />
+      <workItem from="1751864263345" duration="221000" />
+      <workItem from="1751868765164" duration="5252000" />
+      <workItem from="1751953391811" duration="1066000" />
+      <workItem from="1752036883357" duration="5793000" />
+      <workItem from="1752129672343" duration="3226000" />
+      <workItem from="1752209581881" duration="653000" />
+      <workItem from="1752225151036" duration="2847000" />
+      <workItem from="1752416011066" duration="768000" />
+      <workItem from="1752429800026" duration="1121000" />
+      <workItem from="1752491673646" duration="3002000" />
+      <workItem from="1752558315094" duration="241000" />
+      <workItem from="1753248057607" duration="120000" />
+      <workItem from="1753687982543" duration="7395000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/brandNewJavaLearning/Typecasting.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
