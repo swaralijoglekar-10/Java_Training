@@ -1,0 +1,71 @@
+Notes in the form of questions-> 
+part2
+
+1) Problems without Java generics, which exceptions were there
+
+2) Without generics-
+- Store elements in list of different data type and then store their values in respective data types. 
+- Do you need typecasting for the above code?
+
+3) List<String> list1= new ArrayList<>();
+- Add elements in list. add() method
+- Use forEach(), lambda expression, method reference, Iterator, for(dataType variable: ..) for looping.
+
+4) Set
+- What are the properties of Set?
+- Set<Integer> set= new HashSet<>(); 
+- add() method
+- print the set elements
+
+HashSet- remove duplicates
+LinkedHashSet- remove duplicates and preserve insertion order
+TreeSet- remove duplicates and sort elements.
+
+5) Remove duplicate elements from list. 
+- Write code using Set
+- Write code for preserving order and without preserving order
+
+6) How to sort list elements? 
+- Collections.sort(arraylistName); 
+
+7) Write code to remove duplicates and to sort elements in arraylist
+- Use TreeSet
+
+8)
+- Difference in Comparable and Comparator interface
+
+9) Sorting with Comparable
+- class Student implements Comparable<Student>
+Override compareTo() method
+
+10) Sorting with Comparator
+- Use Comparator to sort custom class's objects e.g. Student- sort as per rollno or sort as per method. 
+- Sort in descending order
+- 
+Comparator<Student> crno= (o1, o2)-> o1.getRollno() - o2.getRollno();
+Set<Student> set= new HashSet<>(crno); 
+_____________________________________________________
+11)
+Map
+- not a part of collection framework
+- Classification of Map interface
+- Properties of map
+- If the key is duplicate, is at an error? and what will be the corresponding value?
+- can Key be null?
+- can value be null?
+- Uses of Map
+
+12)
+- print all the key value pairs in map
+- store all the keys in map inside a set using keySet() method. 
+- loop over the keys and print the values in map.
+- Write code using LinkedHashMap to preserve insertion order
+
+13) TreeMap
+- if key is null in TreeMap- NullPointerException
+- For TreeMap without generocs, can you put heterogenous keys? Which exception? 
+
+14) If Map is created using HashMap and key is null-> 
+- printing values with Iterator- not an exception
+- printing values with enhanced for loop- exception will be there.
+_____________________________________________________________

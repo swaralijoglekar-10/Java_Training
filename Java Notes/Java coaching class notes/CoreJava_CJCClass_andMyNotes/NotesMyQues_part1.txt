@@ -1,0 +1,33 @@
+Collection framework learnings:-
+
+File- Week 6 notes
+1) What is collection framework? Why is it needed? 
+2) Is Collection an interface? 
+3) Classification of Collection interface in java
+4) Difference between List and Set
+5) What does < > indicate? 
+6) 
+List<Integer> list1= new ArrayList<>(); 
+What are these methods used for?- add(), get()
+
+7) Print the elements of list using Iterator, hasNext() and next()
+Iterator<Integer> it= list1.iterator(); 
+hasNext(), next()
+
+8) Package of Iterator- java.util.Iterator
+
+9) Create a custom class like Student. 
+Make a list of objects of student and iterate over it using Iterator. 
+Can you use next() of Iterator multiple times in same iteration? 
+I made the following mistake->
+In your while loop, you are calling the next() method three times in a single iteration, which means you are skipping over the second and third elements in the iterator.
+
+10) Write a program to take user input for student class's objects and then add objects in list and iterate over it. 
+
+11) List inside list. 
+Example- Mahrashtra list- add cities like Pune, Mumbai; Gujarath list- add cities; 
+then add above lists inside a list called India. 
+Print all elements in list India. 
+
+12) 
+

@@ -1,0 +1,268 @@
+This is not just about class I attended. It has my learnings from core java.
+My learnings are in the form of questions in order to recall later.
+___________________________________________
+A) File 1- Week1
+MY LEARNINGS IN THE FORM OF QUESTIONS
+1) 
+-.java file and .class file difference
+- When is constructor is added in .class?
+- What is byte code?- Instruction set of JVM
+- Is byte code platform independent?
+
+2) 
+- Compile and run the java files with commands in command prompt
+- Debugging process in IDE
+- Meaning of 'new' and 'this' keywords
+- Syntax of defining floating point number
+- float f1= 4; Is it allowed?  float f2= 5.67f , 5.67F
+3) 
+- package of String class
+- package of Scanner class
+- characteristic of final class
+- How to provide arguments with String[] args before running in IDE?
+- Global variable-> Static, Instance variables
+- Primitive data types, their size, their default value
+- Default value of instance variables
+
+4) 
+- filename is A.java, but if it has multiple classes, how to write commands in command prompt to compile that file?
+- public class name and java file name rules
+- Can more than one classes in same file have main method?
+
+5) 
+- Syntax-? static variables and static method from non-static method and non-static variables in same class.
+- Syntax-? non-static variables and non-static methods from static methods
+
+6) 
+* Parent reference and child object
+- compilation rules, runtime rules, variable running rules, method running rules
+
+7) 
+*Covariant return type
+- returning derived class's reference from method when method's return type is of base class. 
+_____________________________________________
+B) File 2- Week 2
+1) Typecasting when return type of method is Object.
+2) super and this keywords-> Constructor calling, Method calling, Variable calling
+- super can refer to immediate parent class only.
+- by default presence of super in constructor
+- Error case-> In Case when Parent class- only parameterized constructor and Child class-not calling to parent's constructor explicitly
+- Call to "this" must be first statement in constructor body
+- Call to 'super()' must be first statement in constructor body
+- Error- (for "super" and "this")cannot be referenced from static context. So, they cannot be used in main method. 
+- Can super call static method?
+- calling method using super, this. 
+
+3) 
+- Overriding rules
+- @Override 
+- static, final, private methods cannot be overridden. 
+
+4) Overloading in inherited class
+
+5) Override toString() in our class
+
+6) main method can be overloaded but can't be overridden. 
+7) Can static and non-static method be considered overloaded?
+______________________________
+
+File 3- Week 3
+1) What is abstraction? How can it be achieved in java?
+2) Types of API in java and examples of each type
+- Inbuilt APIs, Open specification APIs, Third party APIs
+3) Rules of interface
+4) Usage of interface
+5) Why is multiple inheritance not supported in java?
+6) Rules of interface variables and interface methods.
+7) interface has a variable with value. Use the variable from an implemented class. 
+I DID NOT READ ABOUT FILE HANDLING
+______________________________
+methods in interface- implicitly public and abstract
+______________________________
+File 4- Week 4
+1) String
+- final class
+- which package? Is it imported by developer explicitly?
+- immutable
+2) How to create object of String class?
+- 3 ways
+3) 
+Difference: 
+equals() in Object class and equals() in String class
+4) i) String object creation using new keyword: 
+- Heap memory and String Constant Pool(SCP)
+- How is the String object created in memory with new keyword?
+- When is object created in SCP? 
+- Can duplicate objects be created in SCP? 
+
+ii) String object creation using String literal
+- Object will be created only in SCP area
+
+iii) - s1.concat("ABC");
+- Representation of above line in SCP
+- Referenceless object
+- What does garbage collector do to referenceless objects?
+- Can String reference variable be reassigned to new String object?
+
+5) Important methods of String class- 
+- 
+concat(), equals(), equalsIgnoreCase(), toLowerCase(), toUpperCase(), length(), indexOf(), lastIndexOf(), substring(int start), substring(int start, int end), charAt(int index), trim(), compareTo()
+
+6) 'A' comes lexicographically first comapred to 'a'
+
+7) 
+- compareTo() rules
+-  s1 is "ABC", s2 is "0DEF";  s1.compareTo(s2) = ?
+----------------------------
+8)From java 8, interface can have "static" or "default" implemented methods. All other methods in interface are abstract and cannot be implemented. 
+
+interface A{
+    void commit(); 
+    static void rollback(){
+        System.out.println("rollback");
+    }
+    default void save(){
+        System.out.println("save");
+    }
+}
+
+public class Main implements A
+{
+    public void commit(){ //implemented abstract method
+        System.out.println("commit");
+    }
+    
+	public static void main(String[] args) {
+		A.rollback();
+		
+		A a1= new Main();   // Main m1= new Main();
+		a1.save();
+	}
+}
+__________________________________________
+
+9) 
+Marker interface/ Tag interface
+- Its property
+- Purpose/use
+- Examples of marker interfaces given by java- Serializable, Cloneable
+
+10) 
+abstract class/partial class
+- can it have both implemented and abstract methods at same time?
+- can it have only implemented methods? 
+- if any one abstract method, then class is abstract
+- Need of abstract class?
+- abstract and final never together in method. 
+- Can we create child class without implementing abstract methods of abstract class?
+- Constructor inside abstract class? Its use? How will it be called?
+- Cna abstract class have main method? Will it run?
+11) 
+- encapsulation
+- access modifiers
+- protected variable
+- accessing protected variable from different packages and classes.
+- Create the object of class type which has protected variable in it and create it in another class(which is not its child) as its data member. Then, in the method of that class, try to access protected variable using the object. Try within the package and outside the package.
+- protected: accessible in same package(any class) and in subclasses(be it any package)
+--------------------------------------------------------
+13) Exception handling- 
+- Hierarchy of Throwable class
+- Use of Exception and Error classes. 
+- Examples/names of important Exception subclasses. 
+- Checked and uncheked exception
+- Exception handling keywords- try, catch, finally, throw, throws
+- Code examples- 
+  - try-catch with ArithmeticException
+________________________________________________
+				File 5- Week5 
+14)
+- One-try-multiple-catch blocks
+- If there's a relationship between exception classes, write child classes first. 
+- You can't just write checked exception class in catch, if there's no such condition being formed. 
+- What if you do not handle the required exception in catch block?
+- Write an example of RuntimeException, Exception, Throwable classes in catch block.
+-  String[] args exists.
+   String s = args[0]  -  Which exception can occur here and when will it occur?
+   What will happen if array args is empty?
+
+15) 
+- Use of finally{ } block.
+- When does finally{ } block code execute?
+- If there is exception in try block and there's no catch block to handle it, then will finally{ } execute?
+- If there're problematic lines in in both try{ } and finally { }, then which exception will be thrown?
+- try and finally both have return statements; which one will execute?
+- There is variable and try is returning it; but if finally changes its value in its block, which value will be returned?
+
+
+16) 
+throws keyword:-
+- used with checked exception class. 
+- method syntax and constructor syntax with throws
+- syntax of "throws" with multiple exception classes
+
+17) 
+- checked exception with try-catch
+- parent class of FileNotFoundException?
+----------------------------------------------------
+18) 
+- throws with overridding
+
+**For "throws" in method in inheritance:
+ - parent class's method doesn't "throws" exception and if child class overridden method 
+   "throws" it, then compilation error. 
+- If parent class's method "throws" exception and if child class doesn't write "throws", then it's not an error.
+
+- Compilation error:-
+if parent class's method m1() throws FileNotFoundException 
+and child class's overridden method m1() throws IOException, this is compilation error. 
+
+- parent class: m1() throws IOException
+child class: m1() throws FileNotFoundException
+This works. 
+
+- Compilation error:
+parent class: m1() throws IOException
+child class: m1() throws FileNotFoundException, ClassNotFoundException
+----------------------------------------
+**For "throws" in constructor in inheritance:
+- Can child class's constructor write "throws" if it's not present in parent class's constructor?
+- If there's "throws" in parent class's constructor, but not in child class's constructor, what will happen?
+- Compilation error:
+parent class constructor: throws IOException
+child class constructor: throws FileNotFoundException
+
+- Works: 
+parent class constructor: throws IOException
+child class constructor: throws Exception
+-----------------------------------------
+** If any method "throws" checked exception, when that method is called , how to handle it? What for unchecked exception?
+_____________________________
+19) 
+throw keyword- 
+- Use of throw keyword
+- used inside method, constructor
+- How to create custom checked exception?
+- How to create custom unchecked exception?
+
+20) Create custom exception class
+
+21) 
+- Use throw new ArithmeticException. Pass the exception message.
+- Do you need 'throws in method signature' or try-catch?
+- How to print the exception message after it is passed as an argument?
+
+22) 
+- Use throw new custom exception class. 
+- Do you need 'throws in method signature' or try-catch?
+- How to print the exception message after it is passed as an argument?
+
+23) Is throw new FileNotFoundException is possible?
+----------------------------------------------------
+
+
+
+
+
+
+
+
